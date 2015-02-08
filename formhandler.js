@@ -294,6 +294,7 @@ function drawBoxes(domElement){
 }
 
 function starttest(){
+    $("#local_database").hide();
     console.log("Starttest worked")
     location.hash = "#p1";
     $(".wholepage").hide()//Hide previous page
